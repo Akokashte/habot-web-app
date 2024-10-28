@@ -148,6 +148,7 @@
 
     .location_card_btn_right_arrow {
         font-size: 1.5rem;
+        right: 0.5rem;
     }
     
     .location_inner_wrapper {
