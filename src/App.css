@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (width<1200px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media screen and (width<1080px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media screen and (width<864px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media screen and (width<756px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media screen and (width<648px) {
+    html {
+        font-size: 50%;
+    }
+}
+@media screen and (width<300px) {
+    html {
+        font-size: 35%;
+    }
+}

@@ -1,0 +1,199 @@
+.header_section {
+    width: 100%;
+    height: 5.375rem;
+    display: flex;
+    justify-content: center;
+}
+
+.header_inner_section {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_container {
+    width: 11.313rem;
+    height: 2.688rem;
+}
+
+.logo_container img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.navlinks_and_btn {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navlink_and_drop_icon_wrapper {
+    display: flex;
+    align-content: center;
+    gap: 0.1rem;
+}
+
+.navlinks {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: var(--text_color_gray);
+    font-size: 0.891rem;
+}
+
+.navlinks a:hover {
+    color: var(--text_color_orange);
+}
+
+.drop_down {
+    font-size: 1rem;
+    transform: translateY(0.1rem);
+    color: var(--text_color_gray);
+}
+
+.login_btn {
+    width: 12.082rem;
+    height: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00732F;
+    border-radius: 0.313rem;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.login_btn:hover{
+   background-color: var(--bg_green);
+}
+
+.login_btn:hover span{
+   color: var(--text_color_primary);
+}
+
+.login_btn span {
+    text-align: center;
+    color: var(--text_color_green);
+    font-size: 0.938rem;
+    font-weight: var(--text_bold);
+}
+
+.mobile_header_inner_section {
+    display: none;
+}
+
+.mobile_invisible_header_inner_section {
+    display: none;
+}
+
+.mobile_hamburger_menu {
+    display: none;
+}
+
+
+
+/* mobile breakpoint */
+@media screen and (width < 729px) {
+    .mobile_header_inner_section {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        position: fixed;
+        gap: 2rem;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 200;
+        background-color: var(--bg_primary);
+    }
+
+    .logo_and_hamburger_main_menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo_and_hamburger_menu {
+        margin: 0 auto;
+        width: 90%;
+        height: 5.375rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mobile_invisible_header_inner_section {
+        display: none;
+    }
+
+    .navlinks_and_btn {
+        display: none;
+    }
+
+    .navlinks_and_btn_visible {
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .navlink_and_drop_icon_wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: normal;
+        gap: 0.3rem;
+    }
+
+    .navlinks {
+        width: 100%;
+        flex-direction: column;
+        align-items: left;
+        gap: 1.5rem;
+    }
+
+    .navlinks a {
+        width: 100%;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .mobile_hamburger_menu {
+        display: flex;
+    }
+
+    .mobile_hamburger_menu .menuIcon {
+        font-size: 2rem;
+    }
+
+    .drop_down {
+        font-size: 1.5rem;
+        transform: translateY(0.35rem);
+    }
+
+    .login_btn {
+        width: fit-content;
+        height: auto;
+        padding: 0.8rem 1.4rem;
+    }
+
+    .login_btn span {
+        font-size: 1.3rem;
+    }
+}

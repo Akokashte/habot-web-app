@@ -1,0 +1,167 @@
+.video_guide_section {
+    margin: 0 auto;
+    width: 90%;
+    height: 38.938rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg_bluish);
+    padding: 0 5rem;
+    border-radius: 0.313rem;
+}
+
+.video_guide_inner_section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_yt_video {
+    width: 52%;
+    height: 21.875rem;
+}
+
+.left_yt_video img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.right_buyer_supplier_container {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    padding-left: 2rem;
+    flex-direction: column;
+}
+
+.categories_of_customer {
+    width: 100%;
+    display: flex;
+    margin-left: 2.2rem;
+    gap: 1.1rem;
+}
+
+.category {
+    width: 12.625rem;
+    padding-bottom: 1rem;
+    color: var(--text_color_primary);
+    cursor: pointer;
+}
+
+.category span {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.625rem;
+    font-weight: var(--text_bold);
+    user-select: none;
+}
+
+.buyer_and_supplier_info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    gap: 0.7rem;
+    margin-top: 2rem;
+}
+
+.green_check_and_paragraph_container {
+    width: 100%;
+    display: flex;
+    gap: 0.8rem;
+}
+
+.green_check_bg {
+    width: 10%;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 0.3rem;
+    background-color: var(--bg_primary);
+    border-radius: 50%;
+}
+
+.green_check_bg img {
+    object-fit: cover;
+    width: 100%;
+    width: 100%;
+}
+
+.green_check_and_paragraph_container p {
+    width: 90%;
+    font-size: 1.172rem;
+    color: var(--text_color_primary);
+    font-weight: var(--text_medium);
+    user-select: none;
+}
+
+
+/* mobile device breakpoint */
+@media screen and (width<729px) {
+    .video_guide_section {
+        height: 45rem;
+        padding: 2rem 2rem;
+    }
+
+    .video_guide_inner_section {
+        width: 100%;
+        height: 100%;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .left_yt_video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .right_buyer_supplier_container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .categories_of_customer {
+        margin-left: 0;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+
+    .category {
+        width: auto;
+        padding-bottom: 0.8rem;
+    }
+
+    .buyer_and_supplier_info {
+        width: 100%;
+        align-items: center;
+        padding: 0;
+    }
+
+}
+
+/* breakpoint for devices less than mobile */
+@media screen and (width<283px) {
+    .video_guide_section {
+        height: auto;
+    }
+
+    .video_guide_inner_section {
+        height: auto;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .left_yt_video {
+        width: 100%;
+        height: 15rem;
+    }
+
+    .right_buyer_supplier_container {
+        width: 100%;
+        height: 40%;
+        padding: 0;
+    }
+
+}

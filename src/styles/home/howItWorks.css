@@ -1,0 +1,170 @@
+.how_it_works_section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.how_it_works_inner_section {
+    width: 80%;
+    display: flex;
+    gap: 1.1rem;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.how_it_works_inner_section h2 {
+    font-size: 2.334rem;
+    text-align: center;
+    font-weight: var(--text_bold);
+    user-select: none;
+}
+
+.how_it_work_description {
+    width: 52.438rem;
+    font-size: 1.073rem;
+    line-height: 1.625rem;
+    text-align: center;
+    user-select: none;
+}
+
+.work_cards_wrapper {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work_card_container:nth-of-type(odd) {
+    width: 25rem;
+    height: 15.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    padding: 2rem 0;
+    background-color: var(--bg_cyan);
+}
+
+.work_card_container:nth-of-type(even) {
+    width: 25rem;
+    height: 15.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    padding: 2rem 0;
+    background-color: var(--bg_primary);
+}
+
+.work_card_image {
+    width: 4.647rem;
+    height: 4.647rem;
+}
+
+.work_card_image img {
+    height: 100%;
+    width: 100%;
+}
+
+.work_desc {
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+}
+
+.work_desc p {
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    text-align: center;
+    font-weight: var(--text_medium);
+    user-select: none;
+}
+
+
+
+/* large device breakpoints (device greater than tab) */
+@media screen and (width<1500px) {
+    .work_card_container:nth-of-type(odd) {
+        width: 20rem;
+    }
+
+    .work_card_container:nth-of-type(even) {
+        width: 20rem;
+    }
+}
+
+
+/* breakpoints for medium devices like tab */
+@media screen and (width<1200px) {
+    .work_card_container:nth-of-type(odd) {
+        width: 18rem;
+    }
+
+    .work_card_container:nth-of-type(even) {
+        width: 18rem;
+    }
+}
+
+/* mobile breakpoint */
+@media screen and (300px<width<=729px) {
+    html {
+        font-size: 70%;
+    }
+
+    .how_it_work_description {
+        width: auto;
+        font-size: 1.1rem;
+    }
+
+    .work_cards_wrapper {
+        margin-top: 2rem;
+    }
+
+    .work_card_container:nth-of-type(odd) {
+        width: 100%;
+    }
+
+    .work_card_container:nth-of-type(even) {
+        width: 100%;
+    }
+
+    .work_desc {
+        width: auto;
+        padding: 0 3rem;
+    }
+}
+
+/* devices less than mobile size breakpoints */
+@media screen and (width<=300px) {
+    .how_it_work_description {
+        width: auto;
+        font-size: 1rem;
+    }
+
+    .work_cards_wrapper {
+        margin-top: 2rem;
+    }
+
+    .work_card_container:nth-of-type(odd) {
+        width: 100%;
+    }
+
+    .work_card_container:nth-of-type(even) {
+        width: 100%;
+    }
+
+    .work_card_image {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .work_desc {
+        width: 100%;
+        padding: 0 2rem;
+    }
+}
