@@ -27,7 +27,7 @@ const Location = () => {
                         {/* signup btn */}
                         <div className="signup_btn">
                             <span>Sign up Today !</span>
-                            <i class="fi fi-ts-arrow-right signup_btn_right_arrow"></i>
+                            <i className="fi fi-ts-arrow-right signup_btn_right_arrow"></i>
                         </div>
                     </div>
 

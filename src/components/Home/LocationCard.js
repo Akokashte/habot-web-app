@@ -11,7 +11,7 @@ const LocationCard = ({ location }) => {
                     }
 
                     {/* arrow */}
-                    <i class="fi fi-ts-arrow-right location_card_btn_right_arrow"></i>
+                    <i className="fi fi-ts-arrow-right location_card_btn_right_arrow"></i>
                 </span>
             </div>
         </>

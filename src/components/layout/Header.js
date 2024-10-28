@@ -19,7 +19,7 @@ const Header = () => {
                         {/* hamburger menu */}
                         <div className="mobile_hamburger_menu"
                             onClick={() => setHamburgerClicked(!hamburgerClicked)}>
-                            <i class="fi fi-br-menu-burger menuIcon"></i>
+                            <i className="fi fi-br-menu-burger menuIcon"></i>
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@ const Header = () => {
                                 <NavLink>
                                     Find Service Tags
                                 </NavLink>
-                                <i class="fi fi-rr-angle-small-down drop_down"></i>
+                                <i className="fi fi-rr-angle-small-down drop_down"></i>
                             </div>
                         </div>
 
@@ -55,7 +55,7 @@ const Header = () => {
                         {/* cross hamburger menu for close */}
                         <div className="mobile_hamburger_menu"
                             onClick={() => setHamburgerClicked(!hamburgerClicked)}>
-                            <i class="fi fi-br-cross menuIcon"></i>
+                            <i className="fi fi-br-cross menuIcon"></i>
                         </div>
                     </div>
 
@@ -71,7 +71,7 @@ const Header = () => {
                                 <NavLink to={"/"}>
                                     Find Service Tags
                                 </NavLink>
-                                <i class="fi fi-rr-angle-small-down drop_down"></i>
+                                <i className="fi fi-rr-angle-small-down drop_down"></i>
                             </div>
                         </div>
 

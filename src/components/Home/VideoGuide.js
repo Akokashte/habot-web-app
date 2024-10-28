@@ -43,8 +43,8 @@ const VideoGuide = () => {
                         {/* buyer or customer info display */}
                         <div className="buyer_and_supplier_info">
                             {
-                                customers[customer].map((currentInfoParagraph) => (
-                                    <div className="green_check_and_paragraph_container">
+                                customers[customer].map((currentInfoParagraph,index) => (
+                                    <div key={index} className="green_check_and_paragraph_container">
                                         {/* green verified check */}
                                         <div className="green_check_bg">
                                             <img src="greenCheck.webp" alt="green check image" />
