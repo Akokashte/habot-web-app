@@ -4,10 +4,10 @@ import Location from "../components/Home/Location";
 import VideoGuide from "../components/Home/VideoGuide";
 import GetVerified from "../components/Home/GetVerified";
 import HowItWorks from "../components/Home/HowItWorks";
-import Footer from "../components/layout/Footer";
 
-const Home=()=>{
-    return(
+
+const Home = () => {
+    return (
         <>
             <HeroSection />
             <Location />

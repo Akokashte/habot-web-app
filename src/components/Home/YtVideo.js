@@ -7,7 +7,7 @@ const YtVideo = () => {
                 <iframe
                     width="100%"
                     height="100%"
-                    src="https://www.youtube.com/embed/IZLp-TZyDkQ?si=bhRCMxXsA2oHPFmN"
+                    src="https://www.youtube.com/embed/dH59z5IOUsY?si=raEUOek1gsSe3EBk"
                     title="Introduction To WiseGPT"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

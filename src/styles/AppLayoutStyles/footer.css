@@ -39,6 +39,10 @@ footer {
     height: 2.509rem;
 }
 
+.footer_logo .footer_logo_text{
+    color: var(--text_color_primary);
+}
+
 .footer_logo img {
     object-fit: contain;
     width: 100%;

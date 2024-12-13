@@ -14,7 +14,7 @@ const Header = () => {
                     <div className="logo_and_hamburger_main_menu">
                         {/* main header logo */}
                         <div className="logo_container">
-                            <img src="logo.webp" alt="logo image" />
+                            <h2>NexBuy</h2>
                         </div>
                         {/* hamburger menu */}
                         <div className="mobile_hamburger_menu"
@@ -50,7 +50,7 @@ const Header = () => {
                     <div className="logo_and_hamburger_menu">
                         {/* header logo */}
                         <div className="logo_container">
-                            <img src="logo.png" alt="logo image" />
+                            <h2>NexBuy</h2>
                         </div>
                         {/* cross hamburger menu for close */}
                         <div className="mobile_hamburger_menu"

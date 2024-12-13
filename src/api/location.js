@@ -1,26 +1,26 @@
 export const locations = [
     {
         index: 0,
-        location: "Abu Dhabi",
+        location: "Mumbai",
     },
     {
         index: 1,
-        location: "Dubai",
+        location: "Pune",
     },
     {
         index: 2,
-        location: "Sharjah & Ajman",
+        location: "Nashik",
     },
     {
         index: 3,
-        location: "Fujairah",
+        location: "Ratnagiri",
     },
     {
         index: 4,
-        location: "Ras Al Khaimah",
+        location: "Sangali",
     },
     {
         index: 5,
-        location: "Umm Al Quwain",
+        location: "Thane",
     },
 ]

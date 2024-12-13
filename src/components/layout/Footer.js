@@ -12,10 +12,10 @@ const Footer = () => {
                         {/* footer logo and copyright_title */}
                         <div className="logo_and_copyright_title">
                             <div className="footer_logo">
-                                <img src="footerlogo.webp" alt="logo image" />
+                                <h2 className="footer_logo_text">NexBuy</h2>
                             </div>
                             <div className="copyright_title">
-                                <small>© R Singhania</small>
+                                <small>@ NexBuy</small>
                             </div>
                         </div>
 

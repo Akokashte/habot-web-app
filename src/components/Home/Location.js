@@ -15,12 +15,12 @@ const Location = () => {
                                 Ready to dive into
                             </span>
                             <span className="habot_head">
-                                HABOT?
+                                NexBuy?
                             </span>
                         </div>
                         {/* signup description */}
                         <div className="signup_info_paragraph">
-                            <p>Signing up with HABOT opens the door to a world of new opportunities and potential for business growth.
+                            <p>Signing up with NexBuy opens the door to a world of new opportunities and potential for business growth.
                                 Gain access to a vibrant community of like-minded individuals, unlock valuable resources, and take the first step towards realizing your entrepreneurial dreams.</p>
                         </div>
 
