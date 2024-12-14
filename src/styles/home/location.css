@@ -184,9 +184,9 @@
 
 
 /* devices smaller than mobile breakpoint */
-@media screen and (width<390px) {
+@media screen and (width<402px) {
     .signup_heading {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     
     .habot_head {
